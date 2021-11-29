@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>form validation</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>FORM VALIDATION</h2>
+    </div>
+    <form class="form" id="form">
+      <div class="form-control">
+        <label>First Name</label>
+        <input type="text" name="" id="firstname" placeholder="Enter Your Full Name" autocomplete="off">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Msg</small>
+      </div>
+      <div class="form-control">
+        <label>Address</label>
+        <input type="text" address="" id="address" placeholder="Enter Your Adress" autocomplete="off">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Msg</small>
+      </div>
+
+      <div class="form-control">
+        <label>Zip Code</label>
+        <input type="number" zipcode="" id="zipcode" placeholder="Enter Your Zip Code" autocomplete="off">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Msg</small>
+      </div>
+      <div class="form-control">
+        <label for="state">State</label>
+        <select id="state">
+          <option value="state">Select State</option>
+          <option value="Bihar">Bihar</option>
+          <option value="Jharkhand">Jharkhand</option>
+          <option value="Rajasthan">Rajasthan</option>
+          <option value="UttarPradesh">UttarPradesh</option>
+        </select>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Msg</small>
+      </div>
+      <div class="form-control">
+        <label>User Name</label>
+        <input type="text" name="" id="username" placeholder="Enter Username" autocomplete="off">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Msg</small>
+      </div>
+      <div class="form-control">
+        <label>Email</label>
+        <input type="email" name="" id="email" placeholder="Enter Your Email" autocomplete="off">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Msg</small>
+      </div>
+      <input type="submit" value="Check Form" class="btn">
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
