@@ -78,7 +78,7 @@ const validate = () => {
   if (zipcodeVal === "") {
     setErrorMsg(zipcode, 'zipcode cannot be blank');
   } else if (zipcodeVal.length != 5) { 
-    setErrorMsg(zipcode, 'not a valid zipcode');
+    setErrorMsg(zipcode, 'not a valid zipcode,zipcode should be of 5 digits');
   } else {
     setSuccessMsg(zipcode);
   }
